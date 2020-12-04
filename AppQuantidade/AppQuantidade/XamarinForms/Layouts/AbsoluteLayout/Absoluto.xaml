@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Layouts.AbsoluteLayout.Absoluto">
+    <ContentPage.Content>
+        <AbsoluteLayout BackgroundColor="DarkGray" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <!--<Label TextColor="White" FontSize="80" Text="Renato" AbsoluteLayout.LayoutBounds="x,y,w,h" AbsoluteLayout.LayoutFlags="None" />-->
+            <Label TextColor="White" FontSize="25" Text="Renato" AbsoluteLayout.LayoutBounds="150,300,300,40" AbsoluteLayout.LayoutFlags="None" />
+            <BoxView BackgroundColor="Pink" AbsoluteLayout.LayoutBounds="30,0,50,0.75" AbsoluteLayout.LayoutFlags="HeightProportional"/>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

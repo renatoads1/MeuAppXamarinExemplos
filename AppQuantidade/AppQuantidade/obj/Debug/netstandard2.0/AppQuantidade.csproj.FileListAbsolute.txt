@@ -30,3 +30,6 @@ C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\ob
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\AppBase\Menu.xaml.g.cs
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\PilhaLayout\PageDePilha.xaml.g.cs
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\GradeLayouts\Grade.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\AbsoluteLayout\Absoluto.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\RelativeLayout\Relativo.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\FlexLayout\Flexivel.xaml.g.cs

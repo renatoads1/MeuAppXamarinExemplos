@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Layouts.FlexLayout.Flexivel">
+    <ContentPage.Content>
+        <FlexLayout Direction="Column">
+            <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignItems="Stretch" JustifyContent="Center" BackgroundColor="Goldenrod">
+                <Label Text="texto1" FlexLayout.AlignSelf="Center" BackgroundColor="Pink" Padding="3"/>
+                <Label Text="texto2" BackgroundColor="Blue" Padding="3"/>
+                <Label Text="texto3" BackgroundColor="Orange" FlexLayout.Basis="150" Padding="3"/>
+            </FlexLayout>
+            <FlexLayout FlexLayout.Grow="1" Direction="Column" AlignItems="Stretch" JustifyContent="Center" BackgroundColor="Gray">
+                <Label Text="texto1" FlexLayout.AlignSelf="Center" BackgroundColor="Green" Padding="3"/>
+                <Label Text="texto2" BackgroundColor="White" Padding="3"/>
+                <Label Text="texto3" BackgroundColor="GreenYellow" FlexLayout.Basis="150" Padding="3"/>
+            </FlexLayout>
+        </FlexLayout>
+        
+        
+    </ContentPage.Content>
+</ContentPage>
