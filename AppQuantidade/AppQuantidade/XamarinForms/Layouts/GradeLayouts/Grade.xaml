@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Layouts.GradeLayouts.Grade">
+    <ContentPage.Content>
+            <Grid BackgroundColor="Black" RowSpacing="2" ColumnSpacing="2">
+                <!--define uantidade de colunas-->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!--define quantidade de linhas-->
+                <Grid.RowDefinitions>
+                    <RowDefinition  />
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+            <Button Text="Calculadora do Renato" Grid.ColumnSpan="4" BackgroundColor="#cccccc" FontSize="Title" />
+            <Label Text="0,00" TextColor="White" FontSize="80" Grid.Column="0" Grid.Row="1" HorizontalTextAlignment="End" Grid.ColumnSpan="4" Grid.RowSpan="2" />
+            <Button Text="0" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="1" Grid.Column="0" Grid.Row="6" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="2" Grid.Column="1" Grid.Row="6" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="3" Grid.Column="2" Grid.Row="6" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="4" Grid.Column="0" Grid.Row="5" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="5" Grid.Column="1" Grid.Row="5" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="6" Grid.Column="2" Grid.Row="5" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="7" Grid.Column="0" Grid.Row="4" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="8" Grid.Column="1" Grid.Row="4" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="9" Grid.Column="2" Grid.Row="4" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="+" Grid.Column="3" Grid.Row="6" BackgroundColor="#fb860d" FontSize="Title"/>
+            <Button Text="-" Grid.Column="3" Grid.Row="5" BackgroundColor="#fb860d" FontSize="Title"/>
+            <Button Text="=" Grid.Column="3" Grid.Row="7" BackgroundColor="#fb860d" FontSize="Title"/>
+            <Button Text="/" Grid.Column="3" Grid.Row="4" BackgroundColor="#fb860d" FontSize="Title"/>
+            <Button Text="*" Grid.Column="3" Grid.Row="3" BackgroundColor="#fb860d" FontSize="Title"/>
+            <Button Text="%" Grid.Column="2" Grid.Row="3" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="C" Grid.Column="1" Grid.Row="3" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="+/-" Grid.Column="0" Grid.Row="3" BackgroundColor="#c9cacd" FontSize="Title"/>
+            <Button Text="." Grid.Column="2" Grid.Row="7" BackgroundColor="#c9cacd" FontSize="Title"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

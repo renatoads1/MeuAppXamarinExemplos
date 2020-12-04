@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Paginas.PaginaDeMenuLateral.MLConteudo01"
+             Title="MLConteudo01"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="MLConteudo01"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Menu" Clicked="AbreMenuLateral"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

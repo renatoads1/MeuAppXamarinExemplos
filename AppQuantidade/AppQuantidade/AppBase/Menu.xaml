@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.AppBase.Menu"
+             xmlns:local="clr-namespace:AppQuantidade.AppBase"              
+                  
+                  >
+
+    <!--//menu-->
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Label Text="Paginas"/>
+                <Button Text="Home" Clicked="Home"/>
+                <Button Text="Perfil" Clicked="Perfil"/>
+                <Button Text="ContentPage" Clicked="ContentPage"/>
+                <Button Text="CarroselPage" Clicked="CarroselPage"/>
+                <Button Text="TabbedPage" Clicked="TabbedPage"/>
+                <Button Text="MasterDetailPage" Clicked="MasterDetailPage"/>
+                <Button Text="Pagina de Navegação" Clicked="PaginaDeNavegacao"/>
+                <Button Text="Pagina de Modal" Clicked="PaginaDeModal"/>
+
+                <Label Text="Layout de Pilha ou stackLayout"/>
+                <Button Text="Layout De Pilha" Clicked="LayoutDePilha"/>
+                
+                <Label Text="Grade Layout"/>
+                <Button Text="Layout De Grade" Clicked="LayoutDeGrade"/>
+
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <!--pagina-->
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:Home />
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

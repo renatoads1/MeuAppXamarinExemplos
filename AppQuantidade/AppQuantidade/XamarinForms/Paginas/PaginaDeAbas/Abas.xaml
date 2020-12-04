@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            BarBackgroundColor="Black"
+            SelectedTabColor="Gold"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            x:Class="AppQuantidade.XamarinForms.Paginas.PaginaDeAbas.Abas"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            >
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Tab 1" IconImageSource="Logo.png" >
+        <StackLayout>
+            <Label Text="tabed pag 1" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="Tab 2" >
+        <StackLayout>
+            <Label Text="tabed pag 2" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    
+    <ContentPage Title="Tab 3" >
+        <StackLayout>
+            <Label Text="tabed pag 3" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage>
+    
+</TabbedPage>
