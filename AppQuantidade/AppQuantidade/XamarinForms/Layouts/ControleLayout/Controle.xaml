@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cardh="clr-namespace:AppQuantidade.XamarinForms.Layouts.ControleLayout"
+             x:Class="AppQuantidade.XamarinForms.Layouts.ControleLayout.Controle">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+
+                <StackLayout BackgroundColor="Black" Padding="20">
+                    <Label FontSize="Header" TextColor="AliceBlue" Text="Titulo" />
+                    <Label FontSize="18" TextColor="AliceBlue" Text="Ola mundo controleview ,Ola mundo controleview ," />
+                </StackLayout>
+
+                <cardh:CardHorizontal Titulo="Noticia 01" Texto="Texto 01" cor="black" />
+                <cardh:CardHorizontal Titulo="Noticia 02" Texto="Texto 02" cor="blue" />
+                <cardh:CardHorizontal Titulo="Noticia 03" Texto="Texto 03" cor="yellow" />
+                <cardh:CardHorizontal Titulo="Noticia 04" Texto="Texto 04" cor="green" />
+                <cardh:CardHorizontal Titulo="Noticia 05" Texto="Texto 05" cor="orange" />
+                <cardh:CardHorizontal Titulo="Noticia 06" Texto="Texto 06" cor="black" />
+                <cardh:CardHorizontal Titulo="Noticia 07" Texto="Texto 07" cor="silver" />
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

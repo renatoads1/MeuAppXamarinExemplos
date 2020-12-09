@@ -9,32 +9,33 @@
     <!--//menu-->
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <StackLayout>
-                <Label Text="Paginas"/>
-                <!--<Button Text="Home" Clicked="Home"/>-->
-                <!--<Button Text="Perfil" Clicked="Perfil"/>-->
-                <Button Text="ContentPage" Clicked="ContentPage"/>
-                <Button Text="CarroselPage" Clicked="CarroselPage"/>
-                <Button Text="TabbedPage" Clicked="TabbedPage"/>
-                <Button Text="MasterDetailPage" Clicked="MasterDetailPage"/>
-                <Button Text="Pagina de Navegação" Clicked="PaginaDeNavegacao"/>
-                <Button Text="Pagina de Modal" Clicked="PaginaDeModal"/>
-
-                <!--<Label Text="Layout de Pilha ou stackLayout"/>-->
-                <Button Text="Layout De Pilha" Clicked="LayoutDePilha"/>
-                
-                <!--<Label Text="Grade Layout"/>-->
-                <Button Text="Layout De Grade" Clicked="LayoutDeGrade"/>
-                
-                <!--<Label Text="Absolute Layout"/>-->
-                <Button Text="Layout Absoluto" Clicked="LayoutAbsoluto"/>
-                
-                <!--<Label Text="Relative Layout"/>-->
-                <Button Text="Layout Relativo" Clicked="LayoutRelativo"/>
-                <!--<Label Text="Relative Layout"/> -->
-                <Button Text="Layout Flexivel" Clicked="LayoutFlexivel"/>
-
-            </StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="Paginas"/>
+                    <Button Text="Home" Clicked="Home"/>
+                    <Button Text="Perfil" Clicked="Perfil"/>
+                    <Button Text="ContentPage" Clicked="ContentPage"/>
+                    <Button Text="CarroselPage" Clicked="CarroselPage"/>
+                    <Button Text="TabbedPage" Clicked="TabbedPage"/>
+                    <Button Text="MasterDetailPage" Clicked="MasterDetailPage"/>
+                    <Button Text="Pagina de Navegação" Clicked="PaginaDeNavegacao"/>
+                    <Button Text="Pagina de Modal" Clicked="PaginaDeModal"/>
+                    <Label Text="Layout de Pilha ou stackLayout"/>
+                    <Button Text="Layout De Pilha" Clicked="LayoutDePilha"/>
+                    <Label Text="Grade Layout"/>
+                    <Button Text="Layout De Grade" Clicked="LayoutDeGrade"/>
+                    <Label Text="Absolute Layout"/>
+                    <Button Text="Layout Absoluto" Clicked="LayoutAbsoluto"/>
+                    <Label Text="Relative Layout"/>
+                    <Button Text="Layout Relativo" Clicked="LayoutRelativo"/>
+                    <Label Text="Relative Layout"/>
+                    <Button Text="Layout Flexivel" Clicked="LayoutFlexivel"/>
+                    <Label Text="Relative Layout"/>
+                    <Button Text="ScrollView" Clicked="ScrollView"/>
+                    <Label Text="Content View Layout"/>
+                    <Button Text="ContentView" Clicked="ContentView"/>
+                </StackLayout>
+            </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
     <!--pagina-->

@@ -100,5 +100,21 @@ namespace AppQuantidade.AppBase
             //recolhe o menu
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void ScrollView(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.BarraDeRolagemLayout.BarraDeRolagem();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void ContentView(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.ControleLayout.Controle();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
