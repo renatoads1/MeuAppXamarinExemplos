@@ -1,1 +1,0 @@
-C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\AppQuantidade.UWP.csproj;x86

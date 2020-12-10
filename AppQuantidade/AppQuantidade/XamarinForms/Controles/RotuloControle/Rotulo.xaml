@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.RotuloControle.Rotulo">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+
+            <Label Text="Font Famili , Size , attribute" TextColor="black"   />
+            <Label FontFamily="sans-serif-condensed" Text="Text sanAAAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaaaaaaaaaaaaa " />
+            <Label FontSize="24" Text="Text 2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+            <Label FontAttributes="Bold" Text="Text 3aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+
+
+            <Label Text="HorizontalTextAling,VerticalTextAling" TextColor="black"   />
+            <Label VerticalTextAlignment="End" BackgroundColor="Black" TextColor="White" HorizontalTextAlignment="Start"  Text="Text 1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+            <Label VerticalTextAlignment="Center" BackgroundColor="Black" TextColor="White" HorizontalTextAlignment="End" Text="Text 2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+
+            <Label Text="LineHeight" TextColor="black"   />
+            <Label LineHeight="0.5" Text="Text 1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+            <Label LineHeight="1" Text="Text 2aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+            <Label LineHeight="5" Text="Text 3aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " />
+
+
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="span 1" TextColor="pink" FontSize="8" />
+                        <Span Text="span 2" TextColor="blue" FontSize="24" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label Text="TextDecorations" TextColor="black" TextType="Html"  />
+            <Label Text="&lt;strong&gt;Text 1&lt;/strong&gt;"  />
+            
+            <Label  TextType="Html" >
+                <![CDATA[
+                Texto <strong><i> meu texto </i></strong>
+                        ]]>
+
+            </Label>
+
+
+            <Label Text="Text Color" TextColor="Yellow"   />
+            <Label Text="Text Color" TextColor="#7f00ff00" />
+            <Label Text="Text Color" TextColor="#7ccc" />
+            
+            <Label Text="TextDecorations" TextColor="black" TextDecorations="None" />
+            <Label Text="Text 1" TextDecorations="Strikethrough" />
+            <Label Text="Text 2"  TextDecorations="Underline" />
+
+            <Label Text="CharacterSpacing" TextColor="black" CharacterSpacing="0"  />
+            <Label Text="Text 1"  CharacterSpacing="-10"/>
+            <Label Text="Text 2"  CharacterSpacing="+5"/>
+
+            <Label Text="MaxLines" TextColor="black"   />
+            <Label Text="Text 1aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa " MaxLines="1"  />
+            
+            <Label Text="LineBreackMode" TextColor="black"   />
+            <Label LineBreakMode="WordWrap" Text="define quebra de caracteres , define quebra de caracteres , define quebra de caracteres"  />
+            
+            <Label Text="LineBreackMode" TextColor="black"   />
+            <Label LineBreakMode="NoWrap" Text="define quebra de caracteres , define quebra de caracteres , define quebra de caracteres"  />
+            
+            <Label Text="LineBreackMode" TextColor="black"   />
+            <Label LineBreakMode="HeadTruncation" Text="define quebra de caracteres , define quebra de caracteres , define quebra de caracteres"  />
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

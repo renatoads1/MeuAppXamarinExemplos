@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="20"
+             x:Class="AppQuantidade.XamarinForms.Controles.CaixaDeSelecaoControle.CaixaDeMarcacao">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IsChecked,Color" />
+            <CheckBox IsChecked="True" Color="Gold" CheckedChanged="ClicouNoCheckBox" />
+            <Label x:Name="lblClicou" Text="click"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

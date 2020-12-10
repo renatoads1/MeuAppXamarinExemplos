@@ -116,5 +116,85 @@ namespace AppQuantidade.AppBase
             //recolhe o menu
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void FrameView(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Layouts.QuadradoLayout.Quadrado();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void BoxView(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CaixaControle.Caixa();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void LabelRotulo(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.RotuloControle.Rotulo();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Botao(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.BotaoControle.Botao();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void BotaoImage(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.BotaoImagemControle.BotaoImagem();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Image(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.ImagemControle.Imagem();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void cdes(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CampoDeEntradaSimplesControle.CampoDeEntradaSimples();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void MultiLine(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CampoDeEntradaMultiLineControle.MultiLine();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void CheckBox(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CaixaDeSelecaoControle.CaixaDeMarcacao();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void RadioButton(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.CaixaDeRadioControler.CaixaDeRadio();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

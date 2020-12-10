@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.BotaoImagemControle.BotaoImagem">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            
+                <ImageButton Source="Logo.png" 
+                             WidthRequest="40" 
+                             HeightRequest="40" 
+                             Aspect="AspectFit"
+                             BackgroundColor="White" 
+                             BorderWidth="2" 
+                             BorderColor="Black" 
+                             HorizontalOptions="FillAndExpand" 
+                             Margin="2,10,2,10"
+                             />
+                <ImageButton Source="https://www.4oito.com.br/img/noticias/canada-curiosidades-4oito_9852.jpg" 
+                      
+                             />
+            
+            
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

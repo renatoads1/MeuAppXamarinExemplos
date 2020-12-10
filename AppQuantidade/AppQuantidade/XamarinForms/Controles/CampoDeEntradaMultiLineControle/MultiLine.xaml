@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.CampoDeEntradaMultiLineControle.MultiLine">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Multiplas Linhas" />
+            <Editor Placeholder="teste" 
+                    FontSize="22" 
+                    TextColor="pink"
+                    IsSpellCheckEnabled="True"
+                    IsTextPredictionEnabled="True"
+                    TextChanged="QuantCharDigit"
+                    MaxLength="300"
+                    HeightRequest="200"
+                    />
+            <Label x:Name="lblQuantidadeChar" Text="300"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

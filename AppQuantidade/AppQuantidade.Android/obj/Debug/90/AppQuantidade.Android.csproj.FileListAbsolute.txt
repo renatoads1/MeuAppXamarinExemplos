@@ -507,3 +507,9 @@ C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.An
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-ldpi\logo.png
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-mdpi\logo.png
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\android\src\crc64b157b3412a31e9a1\SplashActivity.java
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-hdpi\searsh.png
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-ldpi\searsh.png
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-mdpi\searsh.png
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-xhdpi\searsh.png
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-xxhdpi\searsh.png
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-xxxhdpi\searsh.png

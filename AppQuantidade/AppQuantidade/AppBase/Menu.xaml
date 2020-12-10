@@ -34,6 +34,26 @@
                     <Button Text="ScrollView" Clicked="ScrollView"/>
                     <Label Text="Content View Layout"/>
                     <Button Text="ContentView" Clicked="ContentView"/>
+                    <Label Text="Frame Layout"/>
+                    <Button Text="FrameView" Clicked="FrameView"/>
+                    <Label Text="Box View"/>
+                    <Button Text="BoxView" Clicked="BoxView"/>
+                    <Label Text="Label Rotulo"/>
+                    <Button Text="LabelRotulo" Clicked="LabelRotulo"/>
+                    <Label Text="Botão"/>
+                    <Button Text="Botao" Clicked="Botao"/>
+                    <Label Text="Botão Imagem"/>
+                    <Button Text="BotaoImage" Clicked="BotaoImage"/>
+                    <Label Text=" Imagem"/>
+                    <Button Text="Image" Clicked="Image"/>
+                    <Label Text="Campo De Entrada Simples"/>
+                    <Button Text="cdes" Clicked="cdes"/>
+                    <Label Text="Campo De Entrada Multi Line"/>
+                    <Button Text="MultiLine" Clicked="MultiLine"/>
+                    <Label Text="CheckBox"/>
+                    <Button Text="CheckBox" Clicked="CheckBox"/>
+                    <Label Text="radiobutton"/>
+                    <Button Text="RadioButton" Clicked="RadioButton"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

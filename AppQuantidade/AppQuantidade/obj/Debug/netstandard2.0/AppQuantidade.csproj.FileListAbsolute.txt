@@ -37,3 +37,13 @@ C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\ob
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\ControleLayout\CardHorizontal.xaml.g.cs
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\ControleLayout\Controle.xaml.g.cs
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\ControleLayout\CardDiretor.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Layouts\QuadradoLayout\Quadrado.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaControle\Caixa.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\RotuloControle\Rotulo.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\BotaoControle\Botao.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\BotaoImagemControle\BotaoImagem.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\ImagemControle\Imagem.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\CampoDeEntradaSimplesControle\CampoDeEntradaSimples.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\CampoDeEntradaMultiLineControle\MultiLine.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaDeSelecaoControle\CaixaDeMarcacao.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\CaixaDeRadioControler\CaixaDeRadio.xaml.g.cs

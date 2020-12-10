@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.BotaoControle.Botao">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10" Spacing="0">
+                <Button Text="botao01" BackgroundColor="Silver" TextColor="White" CornerRadius="10" />
+                <Button Margin="2,3,4,5" Text="botao02" BackgroundColor="White" BorderWidth="1" BorderColor="Black" CornerRadius="5" />
+                <Button FontFamily="sans-serif" FontSize="Large" Text="botao01"/>
+                <Button Margin="5,4,3,2" BorderColor="Black" BorderWidth="1" CornerRadius="10" FontSize="28" Text="botao04" ImageSource="searsh.png" ContentLayout="right" BackgroundColor="White" />
+                <Button  Text="botao04" Pressed="Precionado" Released="Liberado" Clicked="Clicado" >
+                    <VisualStateManager.VisualStateGroups>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Black"/>
+                                    <Setter Property="TextColor" Value="White"/>
+                                    <Setter Property="FontSize" Value="Large"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Pressed">
+                                <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="White"/>
+                                <Setter Property="TextColor" Value="Black"/>
+                                <Setter Property="FontSize" Value="Large"/>
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateManager.VisualStateGroups>
+                </Button>
+                <Label Text="-" x:Name="lblprecionado"/>
+                <Label Text="-" x:Name="lblliberado"/>
+                <Label Text="-" x:Name="lblclicado"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
