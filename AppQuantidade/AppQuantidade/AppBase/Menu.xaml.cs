@@ -196,5 +196,101 @@ namespace AppQuantidade.AppBase
             //recolhe o menu
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void Switch(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.InterruptorControler.Interruptor();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Steper(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.PassadorControler.Passador();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Slider(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.DeslisanteControler.Deslisante();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Picker(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.SelecaoControler.Selecao();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void DatePicker(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.DatePicker.DatePicker();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void TimePicker(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.TempoSelecaoControler.TempoSelecao();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void IndicadorAtividade(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.IndicadorDeAtividadeControler.IndicadorDeAtividade();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void ProgressBarr(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.ProgressBarrControler.ProgressBarr();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void SearchBar(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.SearchBar.SearchBar();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void RefreshView(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.RefreshView.RefreshView();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Arrasta(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.ArrastaControler.Arrasta();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Navegador(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.NavegadorControler.Navegador();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

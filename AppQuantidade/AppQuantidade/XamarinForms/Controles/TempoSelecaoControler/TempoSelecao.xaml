@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.TempoSelecaoControler.TempoSelecao">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Time Pick: Time,Format " />
+            <TimePicker TextColor="Green" FontFamily="sans-serif-light" FontSize="18" Time="14:15" Format="HH:mm" />
+            
+            <Label Text="Time Pick: Event " />
+            <TimePicker PropertyChanged="TimeAlterado" TextColor="Green" FontFamily="sans-serif-light" FontSize="18" Time="14:15" Format="HH:mm" />
+            <Label x:Name="lblResult" Text="Result"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

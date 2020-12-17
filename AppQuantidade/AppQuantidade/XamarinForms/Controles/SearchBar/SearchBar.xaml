@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.SearchBar.SearchBar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="SearchBar: todas as propriedades de texto e mais as cores do cancelar text" />
+            <SearchBar x:Name="SeaechBarEvent"
+                       CancelButtonColor="Red" 
+                       Placeholder="teste" 
+                       FontFamily="sans-serif-light"
+                       FontSize="18"
+                       TextColor="Green"
+                       TextChanged="Eventodeentradadetext"
+                       SearchButtonPressed="EventoDePesquisa"
+                       PlaceholderColor="Pink"  />
+            <Label Text="result" x:Name="lblResultSearch"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppQuantidade.XamarinForms.Controles.DeslisanteControler.Deslisante">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Minimum,Maximum,Value" />
+            <Slider Minimum="0" Maximum="5" Value="2" />
+            <Label Text="MudaComponente" x:Name="lblMudaComponente" />
+            <Label Text="Parado" x:Name="lblFinalizouArrasto" />
+            <Slider ValueChanged="MudaComponente" MinimumTrackColor="GreenYellow" MaximumTrackColor="Black" ThumbColor="Pink" ThumbImageSource="searsh.png"  DragCompleted="FinalizouArrasto" Minimum="0" Maximum="5" Value="2" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

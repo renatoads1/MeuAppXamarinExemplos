@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppQuantidade.XamarinForms.Controles.SelecaoControler.Selecao">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Picker" />
+            <Picker Title="Selecione o Veiculo" FontSize="25">
+                <Picker.Items>
+                    <x:String>Carro</x:String>
+                    <x:String>Moto</x:String>
+                    <x:String>Onibus</x:String>
+                    <x:String>Bicicleta</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Picker Eventos" x:Name="lblPicker" />
+            <Picker Title="Selecione o Veiculo" FontSize="25" SelectedIndexChanged="onSelectEventChanged">
+                <Picker.Items>
+                    <x:String>Vaca</x:String>
+                    <x:String>Gato</x:String>
+                    <x:String>Cachorro</x:String>
+                    <x:String>Bode</x:String>
+                </Picker.Items>
+            </Picker>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

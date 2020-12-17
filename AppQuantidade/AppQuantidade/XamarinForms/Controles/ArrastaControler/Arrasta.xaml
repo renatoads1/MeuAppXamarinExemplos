@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.ArrastaControler.Arrasta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="SwipeView:Arrasta controler" />
+            <Label Text="SwipeView:Propriedades" />
+            <Label Text="SwipeView:Eventos" />
+            <Label Text="SwipeView:Observação: tem que setar esta flag no arquivo de conf do app ex MainActivit.cs 'SwipeView_Experimental' " />
+            <Label Text="SwipeView:Resultado" />
+
+            <SwipeView Margin="10">
+                <SwipeView.LeftItems>
+                    <SwipeItems SwipeBehaviorOnInvoked="RemainOpen">
+                        <SwipeItem Invoked="SwipeDetalhe" IconImageSource="search.png" BackgroundColor="OrangeRed" Text="Detalhe"/>
+                        <SwipeItem Invoked="SwipeEdit" BackgroundColor="Blue" Text="Editar"/>
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+
+                <SwipeView.RightItems>
+                    <SwipeItems  Mode="Reveal">
+                        <SwipeItemView>
+                            <StackLayout Padding="10" VerticalOptions="CenterAndExpand" BackgroundColor="GreenYellow">
+                                <Label Text="visualizar"/>
+                            </StackLayout>
+                        </SwipeItemView>
+                        <SwipeItem Invoked="SwipeExcluir" BackgroundColor="red" Text="Excluir"/>
+                    </SwipeItems>
+                </SwipeView.RightItems>
+
+                <Frame BorderColor="Gray" >
+                <Label Text="Arrastar" TextColor="red" FontSize="24" VerticalTextAlignment="Center"/>
+            </Frame>
+            </SwipeView>
+            <Label Text="lblDetalhe"  x:Name="lblDetalhe"/>
+            <Label Text="lblEditar"  x:Name="lblEditar"/>
+            <Label Text="lblExcluir"  x:Name="lblExcluir"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

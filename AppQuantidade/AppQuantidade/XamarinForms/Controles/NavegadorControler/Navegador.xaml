@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppQuantidade.XamarinForms.Controles.NavegadorControler.Navegador">
+    <ContentPage.Content>
+        <ScrollView >
+            <StackLayout>
+                <Label Text="Propriedades" />
+                <Label Text="Eventos" />
+                <Label Text="observaçoes" />
+                <Label Text="Result" />
+                <Frame BorderColor="Gray">
+                    <WebView Source="http://www.google.com.br" HorizontalOptions="FillAndExpand" HeightRequest="300">
+                    
+                    </WebView>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

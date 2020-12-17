@@ -54,6 +54,30 @@
                     <Button Text="CheckBox" Clicked="CheckBox"/>
                     <Label Text="radiobutton"/>
                     <Button Text="RadioButton" Clicked="RadioButton"/>
+                    <Label Text="Switch"/>
+                    <Button Text="Switch" Clicked="Switch"/>
+                    <Label Text="Steper"/>
+                    <Button Text="Steper" Clicked="Steper"/>
+                    <Label Text="Slider"/>
+                    <Button Text="Slider" Clicked="Slider"/>
+                    <Label Text="Picker"/>
+                    <Button Text="Picker" Clicked="Picker"/>
+                    <Label Text="DatePicker"/>
+                    <Button Text="DatePicker" Clicked="DatePicker"/>
+                    <Label Text="TimePicker"/>
+                    <Button Text="TimePicker" Clicked="TimePicker"/>
+                    <Label Text="Indicador de Atividades"/>
+                    <Button Text="IndicadorAtividade" Clicked="IndicadorAtividade"/>
+                    <Label Text="ProgressBarr"/>
+                    <Button Text="ProgressBarr" Clicked="ProgressBarr"/>
+                    <Label Text="SearchBar"/>
+                    <Button Text="SearchBar" Clicked="SearchBar"/>
+                    <Label Text="RefreshView"/>
+                    <Button Text="RefreshView" Clicked="RefreshView"/>
+                    <Label Text="Arrasta"/>
+                    <Button Text="Arrasta" Clicked="Arrasta"/>
+                    <Label Text="Navegador"/>
+                    <Button Text="Navegador" Clicked="Navegador"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

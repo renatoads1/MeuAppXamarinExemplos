@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppQuantidade.XamarinForms.Controles.ProgressBarrControler.ProgressBarr">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ProgressBar" />
+            <ProgressBar Progress="0.5" ProgressColor="Green" BackgroundColor="Silver"/>
+
+            <Label Text="ProgressBar animada" />
+            <ProgressBar x:Name="ProgresAnimada"  ProgressColor="Green" BackgroundColor="Silver"/>
+            <Button Text="Iniciar" Clicked="IniciaProgresBarr"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
