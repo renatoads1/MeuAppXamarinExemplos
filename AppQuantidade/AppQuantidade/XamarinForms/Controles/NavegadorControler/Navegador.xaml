@@ -6,15 +6,34 @@
     <ContentPage.Content>
         <ScrollView >
             <StackLayout>
-                <Label Text="Propriedades" />
+                <!--<Label Text="Propriedades" />
                 <Label Text="Eventos" />
                 <Label Text="observaçoes" />
-                <Label Text="Result" />
-                <Frame BorderColor="Gray">
-                    <WebView Source="http://www.google.com.br" HorizontalOptions="FillAndExpand" HeightRequest="300">
+                <Label Text="Result" />-->
+                <Frame BorderColor="Gray" IsVisible="False">
+                    <WebView x:Name="webview1" Source="http://www.google.com.br" HorizontalOptions="FillAndExpand" HeightRequest="300">
                     
                     </WebView>
                 </Frame>
+                <Frame BorderColor="Gray" IsVisible="False">
+                    <WebView x:Name="webview2" HorizontalOptions="FillAndExpand" HeightRequest="300">
+
+                    </WebView>
+                </Frame>
+                <StackLayout >
+                    <Label x:Name="lblStatus" Text="URL"/>    
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Voltar" Clicked="btnVoltar"/>
+                        <Button Text="Atualizar" Clicked="btnAtualizar"/>
+                        <Button Text="Proximo" Clicked="btnProximo"/>
+                    </StackLayout>
+                </StackLayout>
+                <Frame BorderColor="Gray" >
+                    <WebView Navigated="Carregado" Navigating="Carregando" x:Name="webview3" HorizontalOptions="FillAndExpand" HeightRequest="500">
+                            
+                    </WebView>
+                </Frame>
+
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

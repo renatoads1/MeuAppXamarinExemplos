@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>736F0074E9531CEEAA007D45EB5E7DED8A9F256268F36863A0D4CA13EFC9A1D6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>0900AB72DF482BAF1808A9D8B6BA239C628C23E7AAF836656C85F1689C6C4344</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>32a8c7d6-2547-4aba-8786-46f875087997_1.0.0.0_x86__mkcnceez0yg54</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>32a8c7d6-2547-4aba-8786-46f875087997_mkcnceez0yg54!App</RegisteredUserModeAppID>
     <RegisteredPackageID>32a8c7d6-2547-4aba-8786-46f875087997</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-01T13:38:23.357</Modified>
+      <Modified>2020-12-18T18:07:48.758</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\AppQuantidade.UWP.exe">
       <PackagePath>entrypoint\AppQuantidade.UWP.exe</PackagePath>
-      <Modified>2020-12-01T13:38:21.596</Modified>
+      <Modified>2020-12-18T17:19:38.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\bin\Debug\netstandard2.0\AppQuantidade.dll">
       <PackagePath>AppQuantidade.dll</PackagePath>
-      <Modified>2020-12-01T13:17:07.613</Modified>
+      <Modified>2020-12-18T18:07:40.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -332,6 +332,14 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-12-01T13:37:34.190</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\gemido.mp3">
+      <PackagePath>gemido.mp3</PackagePath>
+      <Modified>2020-12-18T17:44:08.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\gemido.mp4">
+      <PackagePath>gemido.mp4</PackagePath>
+      <Modified>2020-12-18T17:44:08.041</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-11-30T20:46:20.801</Modified>
@@ -342,11 +350,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-01T13:38:21.511</Modified>
+      <Modified>2020-12-18T18:07:47.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-12-01T13:38:21.511</Modified>
+      <Modified>2020-12-18T18:07:47.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -362,11 +370,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-01T13:38:22.159</Modified>
+      <Modified>2020-12-18T17:44:55.201</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.UWP\bin\x86\Debug\Core\AppQuantidade.UWP.exe">
       <PackagePath>AppQuantidade.UWP.exe</PackagePath>
-      <Modified>2020-12-01T13:38:23.352</Modified>
+      <Modified>2020-12-18T18:07:48.754</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

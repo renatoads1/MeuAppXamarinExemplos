@@ -78,6 +78,12 @@
                     <Button Text="Arrasta" Clicked="Arrasta"/>
                     <Label Text="Navegador"/>
                     <Button Text="Navegador" Clicked="Navegador"/>
+                    <Label Text="MediaPage"/>
+                    <Button Text="MediaPage" Clicked="MediaPage"/>
+                    <Label Text="Expanssor"/>
+                    <Button Text="Expanssor" Clicked="Expanssor"/>
+                    <Label Text="Listas"/>
+                    <Button Text="TableView" Clicked="TableView"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>

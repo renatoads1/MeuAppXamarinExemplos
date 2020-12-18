@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="10"
+             x:Class="AppQuantidade.XamarinForms.Controles.ExpanssorControler.Expanssor">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Despesas" TextColor="Silver" FontSize="18"/>
+            <Frame BorderColor="Orange" Padding="10" >
+            <Expander BackgroundColor="LightSlateGray" Padding="10">
+                <Expander.Header>
+                    <Label Text="EXPANSSOR" TextColor="Silver" FontSize="18"/>
+                </Expander.Header>
+                <Expander.Content>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                            <!--linha 2-->
+                        <Label Text="01" FontSize="16" TextColor="HotPink" Grid.Row="0" Grid.Column="0" />
+                        <Label Text="Salario" FontSize="16" TextColor="HotPink" Grid.Row="0" Grid.Column="1" />
+                        <Label Text="R$3000,00" FontSize="16" TextColor="HotPink" Grid.Row="0" Grid.Column="2" />
+                            <!--linha 2-->
+                        <Label Text="02" FontSize="16" TextColor="HotPink" Grid.Row="1" Grid.Column="0" />
+                        <Label Text="Bônus" FontSize="16" TextColor="HotPink" Grid.Row="1" Grid.Column="1" />
+                        <Label Text="R$300,00" FontSize="16" TextColor="HotPink" Grid.Row="1" Grid.Column="2" />
+                        </Grid>
+                </Expander.Content>
+            </Expander>
+            </Frame>
+            <!--frame-->
+            <Label Text="Despesas" TextColor="Silver" FontSize="18"/>
+            <Frame BorderColor="Orange" Padding="10" >
+                <Expander BackgroundColor="LightSlateGray" Padding="10" 
+                          ExpandAnimationEasing="{x:Static Easing.BounceOut}"
+                          CollapseAnimationEasing="{x:Static Easing.SinIn}"
+                          ExpandAnimationLength="5000"
+                          CollapseAnimationLength="3000"
+                          >
+                    <Expander.Header>
+                        <Label Text="EXPANSSOR" TextColor="Silver" FontSize="18"/>
+                    </Expander.Header>
+                    <Expander.Content>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <!--linha 2-->
+                            <Label Text="01" FontSize="16" TextColor="Black" Grid.Row="0" Grid.Column="0" />
+                            <Label Text="Salario" FontSize="16" TextColor="Black" Grid.Row="0" Grid.Column="1" />
+                            <Label Text="R$5000,00" FontSize="16" TextColor="Black" Grid.Row="0" Grid.Column="2" />
+                            <!--linha 2-->
+                            <Label Text="02" FontSize="16" TextColor="Black" Grid.Row="1" Grid.Column="0" />
+                            <Label Text="Bônus" FontSize="16" TextColor="Black" Grid.Row="1" Grid.Column="1" />
+                            <Label Text="R$500,00" FontSize="16" TextColor="Black" Grid.Row="1" Grid.Column="2" />
+                        </Grid>
+                    </Expander.Content>
+                </Expander>
+            </Frame>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

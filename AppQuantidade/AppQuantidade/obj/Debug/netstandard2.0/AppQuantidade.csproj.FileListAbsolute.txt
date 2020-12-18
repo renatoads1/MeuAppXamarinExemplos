@@ -59,3 +59,6 @@ C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\ob
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\RefreshView\RefreshView.xaml.g.cs
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\ArrastaControler\Arrasta.xaml.g.cs
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\NavegadorControler\Navegador.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\MediaControler\Media.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Controles\ExpanssorControler\Expanssor.xaml.g.cs
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade\obj\Debug\netstandard2.0\XamarinForms\Listas\TabelaControle\Tabela.xaml.g.cs

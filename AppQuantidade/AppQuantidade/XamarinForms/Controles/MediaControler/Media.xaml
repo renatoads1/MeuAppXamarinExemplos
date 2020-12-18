@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Controles.MediaControler.Media">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Label Text="Medias" />
+            <Label Text="Propriedades" />
+            <Label Text="Métodos" />
+            <Label Text="Eventos" />
+            
+            <Label Text="mp3"  FontSize="28" TextColor="Blue" HorizontalOptions="Center" />
+            <MediaElement AutoPlay="False" Source="ms-appx:///gemido.mp3" HorizontalOptions="StartAndExpand" HeightRequest="200" ShowsPlaybackControls="True" />
+            <Label Text="mp4"  FontSize="28" TextColor="Red" HorizontalOptions="Center" />
+            <MediaElement AutoPlay="False" Source="ms-appx:///gemido.mp4" HorizontalOptions="StartAndExpand" HeightRequest="200" ShowsPlaybackControls="True"/>
+            <Label Text="media youtube"  TextColor="Green" HorizontalOptions="Center"/>
+            <MediaElement Aspect="Fill" Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4" AutoPlay="True"  ShowsPlaybackControls="True" />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

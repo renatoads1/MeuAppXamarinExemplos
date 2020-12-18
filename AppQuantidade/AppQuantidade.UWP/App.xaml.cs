@@ -57,7 +57,11 @@ namespace AppQuantidade.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.Forms.Forms.SetFlags(new string[] { "RadioButton_Experimental", "SwipeView_Experimental" });
+                Xamarin.Forms.Forms.SetFlags(new string[] { 
+                    "RadioButton_Experimental",
+                    "SwipeView_Experimental",
+                    "Expander_Experimental",
+                    "MediaElement_Experimental" });
                 Xamarin.Forms.Forms.Init(e);
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)

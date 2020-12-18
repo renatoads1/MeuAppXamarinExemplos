@@ -58,12 +58,32 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseUrl_Android.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SplashActivity.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\scss\_bootstrap-overrides.scss" />
+    <AndroidAsset Include="Assets\wwwbot\scss\_global.scss" />
+    <AndroidAsset Include="Assets\wwwbot\scss\_masthead.scss" />
+    <AndroidAsset Include="Assets\wwwbot\scss\_mixins.scss" />
+    <AndroidAsset Include="Assets\wwwbot\scss\_navbar.scss" />
+    <AndroidAsset Include="Assets\wwwbot\scss\_variables.scss" />
+    <AndroidAsset Include="Assets\wwwbot\scss\one-page-wonder.scss" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap.css.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap.min.css.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.bundle.js.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.bundle.min.js.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.js.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.min.js.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\jquery\jquery.min.map" />
+    <AndroidAsset Include="Assets\wwwbot\vendor\jquery\jquery.slim.min.map" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
@@ -181,6 +201,75 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\searsh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\css\one-page-wonder.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\css\one-page-wonder.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\img\01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\img\02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\img\03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-grid.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-grid.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-reboot.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\css\bootstrap.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.bundle.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\bootstrap\js\bootstrap.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\jquery\jquery.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\jquery\jquery.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\jquery\jquery.slim.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wwwbot\vendor\jquery\jquery.slim.min.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\gemido.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\raw\gemido.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\perfil.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

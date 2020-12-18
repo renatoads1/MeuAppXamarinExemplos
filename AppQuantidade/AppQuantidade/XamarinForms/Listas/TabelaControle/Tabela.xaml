@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Listas.TabelaControle.Tabela">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="TableView" />
+            <Label Text="Propriedades:" />
+            <!--TextCell,ImageCell,EntryCell,ViewCell-->
+            <TableView BackgroundColor="WhiteSmoke">
+                <TableRoot>
+                    <TableSection Title="Lider"  >
+                        <ImageCell Text="Hinata" Detail="LiderHokage" ImageSource="perfil.jpg"/>
+                        <TextCell Text="Alaina" TextColor="Silver" Detail="DP"/>
+                        <TextCell Text="Amanda" TextColor="Silver" Detail="Contabil"/>
+                        <TextCell Text="Cristina" TextColor="Silver" Detail="DP"/>
+                        <TextCell Text="Bruno" TextColor="Silver" Detail="Contabil"/>
+                    </TableSection>
+                    <TableSection Title="Coordenador">
+                        <TextCell Text="Larissa" TextColor="Silver" Detail="DP"/>
+                        <TextCell Text="Denis" TextColor="Silver" Detail="Contabil"/>
+                        <TextCell Text="Luiz" TextColor="Silver" Detail="DP"/>
+                        <TextCell Text="Maria" TextColor="Silver" Detail="Contabil"/>
+                    </TableSection>
+                    <TableSection Title="Analista">
+                        <TextCell Text="Anderson" TextColor="Silver" Detail="DP"/>
+                        <TextCell Text="Maria" TextColor="Silver" Detail="Contabil"/>
+                        <TextCell Text="Lorinha" TextColor="Silver" Detail="DP"/>
+                        <TextCell Text="Larissa" TextColor="Silver" Detail="Contabil"/>
+                    </TableSection>
+                    <TableSection x:Name="FormCad" Title="Formulário de Cadastro">
+                        <EntryCell Placeholder="Digite seu email" LabelColor="Silver"/>
+                        <SwitchCell Text="Sexo" On="False" OnChanged="MudaCorTexrt"/>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="StackLayout"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

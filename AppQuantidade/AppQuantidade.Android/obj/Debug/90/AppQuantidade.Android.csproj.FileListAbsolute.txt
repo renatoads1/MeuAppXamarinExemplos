@@ -513,3 +513,6 @@ C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.An
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-xhdpi\searsh.png
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-xxhdpi\searsh.png
 C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable-xxxhdpi\searsh.png
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\raw\gemido.mp3
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\raw\gemido.mp4
+C:\Users\renatolacerda\source\repos\AppQuantidade\AppQuantidade\AppQuantidade.Android\obj\Debug\90\res\drawable\perfil.jpg

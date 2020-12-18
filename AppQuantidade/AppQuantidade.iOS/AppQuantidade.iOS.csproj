@@ -133,4 +133,10 @@
       <Name>AppQuantidade</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gemido.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gemido.mp3" />
+  </ItemGroup>
 </Project>

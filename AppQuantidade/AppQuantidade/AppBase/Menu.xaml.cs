@@ -292,5 +292,29 @@ namespace AppQuantidade.AppBase
             //recolhe o menu
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void MediaPage(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.MediaControler.Media();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void Expanssor(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Controles.ExpanssorControler.Expanssor();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
+
+        private void TableView(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Listas.TabelaControle.Tabela();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }
