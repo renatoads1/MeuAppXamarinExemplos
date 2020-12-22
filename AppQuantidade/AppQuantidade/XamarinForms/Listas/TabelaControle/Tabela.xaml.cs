@@ -20,5 +20,10 @@ namespace AppQuantidade.XamarinForms.Listas.TabelaControle
         private void MudaCorTexrt(object sender, ToggledEventArgs e)
         {
         }
+
+        private void AlteraCampoTextCell(object sender, EventArgs e)
+        {
+            ((TextCell)sender).Text += "clicou";
+        }
     }
 }

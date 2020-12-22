@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuantidade.XamarinForms.Listas.ListaControle.Lista">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--<Label Text="ListView :ItemTemplate,ItemsSource,SeparatorVisibility " />-->
+            <ListView x:Name="Lista01" 
+                      IsPullToRefreshEnabled="True"
+                      RefreshControlColor="DarkOrange"
+                      Refreshing="RefreshNaPagina"
+                      SeparatorColor="Orange" 
+                      HasUnevenRows="True" 
+                      IsGroupingEnabled="True"
+                      GroupDisplayBinding="{Binding Nome}"
+                      >
+                <ListView.Header>
+                    <StackLayout>
+                        <Label Text="ListView :IsGroupingEnabled,ItemTemplate,ItemsSource,SeparatorVisibility,VerticalScrollBarVisibility " />
+                    </StackLayout>
+                </ListView.Header>
+                
+                <ListView.GroupHeaderTemplate>
+                    <DataTemplate>
+                        <!--<TextCell Text="{Binding Nome}" TextColor="LightPink"/>-->
+                        <ViewCell>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Nome}" TextColor="LightPink" FontAttributes="Bold" FontSize="22" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.GroupHeaderTemplate>
+                <!--<ListView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Moby</x:String>
+                        <x:String>Uno</x:String>
+                        <x:String>Argo</x:String>
+                        <x:String>Crono</x:String>
+                        <x:String>Toro</x:String>
+                        <x:String>Gran Siena</x:String>
+                        <x:String>Estrada</x:String>
+                        <x:String>Doblo</x:String>
+                    </x:Array>
+                </ListView.ItemsSource>-->
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="Visualizar" 
+                                          CommandParameter="{Binding .}"
+                                          Clicked="Visualizar"/>
+                            </ViewCell.ContextActions>
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding Nome}" TextColor="OrangeRed" FontAttributes="Bold" FontSize="22" />
+                                <Label Text="{Binding Motorizacao}" TextColor="OrangeRed" FontAttributes="Bold" FontSize="18" />
+                                <Label Text="{Binding ItendeSerie}" TextColor="OrangeRed" FontAttributes="Bold" FontSize="18" />
+                                <Label Text="{Binding Descricao}" TextColor="OrangeRed" FontAttributes="Bold" FontSize="18" />
+
+                            </StackLayout>
+                        </ViewCell>
+                        <!--<TextCell Text="{Binding Nome}" TextColor="Black" Detail="{Binding ItendeSerie}"/>-->
+                    </DataTemplate>   
+                </ListView.ItemTemplate>
+                <ListView.Footer>
+                    <StackLayout>
+                        <Label Text="Rodapé"/>
+                    </StackLayout>
+                </ListView.Footer>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

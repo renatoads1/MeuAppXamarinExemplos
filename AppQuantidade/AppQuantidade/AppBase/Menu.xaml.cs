@@ -316,5 +316,13 @@ namespace AppQuantidade.AppBase
             //recolhe o menu
             ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
         }
+
+        private void Lista(object sender, EventArgs e)
+        {
+            //chama a nova pagina no menu
+            ((MasterDetailPage)App.Current.MainPage).Detail = new XamarinForms.Listas.ListaControle.Lista();
+            //recolhe o menu
+            ((MasterDetailPage)App.Current.MainPage).IsPresented = false;
+        }
     }
 }

@@ -84,6 +84,8 @@
                     <Button Text="Expanssor" Clicked="Expanssor"/>
                     <Label Text="Listas"/>
                     <Button Text="TableView" Clicked="TableView"/>
+                    <Label Text="Listas Controle"/>
+                    <Button Text="Lista" Clicked="Lista"/>
                 </StackLayout>
             </ScrollView>
         </ContentPage>
